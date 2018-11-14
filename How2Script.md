@@ -56,6 +56,9 @@ It is usually easier to start creating batches via the graphic interface. Many r
 
 In the `How2SCript` folder are 2 matlab .m files that show you what typical SPM scripts look like. I have commented those files to give more explanations and advices, but if something is unclear or does not work, let me know.
 
+
+
+
 1. `Realign_batch.m`
 
 This script runs the preprocessing "realign and write" function from SPM. It uses the raw EPI files from the block design data set from the SPM [website](ftp://ftp.fil.ion.ucl.ac.uk/spm/data/MoAEpilot/MoAEpilot.zip). Unzip the file in a folder, put this script in the same folder and it should run.

@@ -16,6 +16,8 @@ What this book lacks in mathematical depth, it makes up for in breadth and conce
 
 This book also has an unofficial companion [youtube channel](https://www.youtube.com/channel/UCZ7gF0zm35FwrFpDND6DWeA). where Jeanette A. Mumford has a fantastic series of videos on neuroimaging analysis: I highly recommend it. The channel also has [facebook group](https://www.facebook.com/groups/mumfordbrainstats/) (as well as a [tumblr](http://mumfordbrainstats.tumblr.com/) and [twitter account](https://twitter.com/mumbrainstats) ) if you have questions.
 
+You can also find the code to recreate the figures of the book [here](http://www.fmri-data-analysis.org/code).
+
 ![](.statics/stat_anal_MRI_data.jpg)
 
 * [Statistical Analysis of fMRI Data]() by F. Gregory Ashby

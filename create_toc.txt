@@ -1,0 +1,12 @@
+
+
+npm install --save markdown-toc
+
+var fs = require('fs');
+var toc = require('markdown-toc')
+
+file='./OnlineResources.md';
+file = 'D:/github/advanced_fMRI_course/OnlineResources.md';
+content = fs.readFileSync(file, 'utf8');
+toc_content = toc(content);
+console.log(toc_content.content)
