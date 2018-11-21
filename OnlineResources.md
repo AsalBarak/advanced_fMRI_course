@@ -738,14 +738,18 @@ If you intend to run a MVPA - classification analysis on your data, there are a 
 
 
 ### Defining your region of interest (   ???   )
-If you don't want to run a whole brain analysis, then you will most likely need to define your regions of interest (ROI). This must be done using data that is independent from the data you will use in the end otherwise you will have a [circularity] (   ???   ) problem (also known as double dipping or [voodoo correlation] (   ???   )).
+If you don't want to run a whole brain analysis, then you will most likely need to define your regions of interest (ROI). This must be done using data that is independent from the data you will use in the end otherwise you will have a circularity problem (also known as double dipping or voodoo correlation).
 * around a coordinate identified in a previous study or in a [meta-analysis](#meta-analysis-(   ???   )), or by using Neurosynth.
 * using a localizer
 * or relying on a functional or anatomical atlas.
 
+Some blog posts related to voodoo correlations:
+* http://neuroskeptic.blogspot.com/2009/02/voodoo-correlations-in-fmri-whose.html
+* http://blogs.discovermagazine.com/neuroskeptic/2012/01/31/voodoo-neuroscience-revisited/
+* http://blogs.discovermagazine.com/neuroskeptic/2010/04/30/new-voodoo-free-fmri-technique/
+* https://neurocritic.blogspot.com/2009/01/voodoo-correlations-in-social.html
 
-http://blogs.discovermagazine.com/neuroskeptic/2012/01/31/voodoo-neuroscience-revisited/
-http://blogs.discovermagazine.com/neuroskeptic/2010/04/30/new-voodoo-free-fmri-technique/
+
 
 #### Using previous results (   ???   )
 
@@ -768,7 +772,13 @@ There are many atlases you could use to create ROIS. Some ship automatically wit
 * [CARET website](http://brainvis.wustl.edu/wiki/index.php/Caret:Atlases)
 * [NITRC website](https://www.nitrc.org/search/?type_of_search=group&offset=0&removeterm=&cat=578%3AAtlas+Data&compare=&q=&rows=20&s=relevancy&file=%2Ffrs%2Fdownloadlink.php%2F9275&file=%2Ffrs%2Fdownloadlink.php%2F9336&file=%2Ffrs%2Fdownloadlink.php%2F3981&file=%2Ffrs%2Fdownload.php%2F9300%2Fdti_atlas.nrrd&file=%2Ffrs%2Fdownload.php%2F6716%2F3DMetricTools1.4.3-Windows.tar&file=%2Ffrs%2Fdownloadlink.php%2F5884&file=%2Ffrs%2Fdownload.php%2F860%2FLesionSegmentationTutorialData.tgz&file=%2Ffrs%2Fdownloadlink.php%2F10354&file=%2Ffrs%2Fdownload.php%2F7345%2FCONFREP_new_bvecs.zip&file=%2Ffrs%2Fdownload.php%2F5348%2FDemoData.zip&file=%2Ffrs%2Fdownload.php%2F10036%2F7T3T_NITRC.tar.gz&file=%2Ffrs%2Fdownloadlink.php%2F6725&file=%2Ffrs%2Fdownload.php%2F9277%2FLC_prob_atlas_mni05.zip&file=%2Ffrs%2Fdownloadlink.php%2F4074&file=%2Ffrs%2Fdownload.php%2F4969%2FaBEAT.zip&xrowsx=20&s=relevancy)
 
+
+
+
 http://nilearn.github.io/modules/reference.html#module-nilearn.datasets
+
+
+
 
 Some other retinotopics maps are apparently not listed in the above so here they are:
 * An anatomical template of human striate retinotopy (https://cfn.upenn.edu/aguirre/wiki/public:data_currbio_2012_benson)
@@ -803,10 +813,8 @@ In case you want to normalize brains of children it might be better to use a ped
 * [the PCP Quality Assessment Protocol](https://github.com/BIDS-Apps/QAP) is another BIDS app based on the protocol of [the connectome project data}(http://preprocessed-connectomes-project.org/quality-assessment-protocol/)
 * [Scripts for quality control of diffusion data](http://davidroalf.com/script_download/)
 * https://github.com/memobc/memolab-fmri-qa
-
-
-qoala-t for QA for freesurfer segmentations
-https://qoala-t.shinyapps.io/qoala-t_app/
+* [Qoala-t](https://github.com/Qoala-T) for QA for freesurfer segmentations also with an online [shinyapp](https://qoala-t.shinyapps.io/qoala-t_app/)
+* [Visual QC](https://github.com/raamana/visualqc) developed by [Pradeep](https://twitter.com/raamana_).
 
 
 ## ONCE YOU HAVE DATA: preprocessing
@@ -827,8 +835,8 @@ There is also an [OPPNI](https://github.com/BIDS-Apps/oppni) for Optimization of
 
 ### Artefact/Noise removal (   ???   )
 
-GLM denoise
-http://kendrickkay.net/GLMdenoise/
+[GLM denoise](http://kendrickkay.net/GLMdenoise/)
+
 
 #### PCA  (   ???   )
 
@@ -898,19 +906,19 @@ But there are better ways to do it:
 ## ANALYSIS: Statistical inferences and multiple comparison correction (MCP) (   ???   )
 
 
-
+the salmon
+http://neuroskeptic.blogspot.com/2009/09/fmri-gets-slap-in-face-with-dead-fish.html
 
 imager's fallacy
 http://blog.efpsa.org/2014/12/17/a-psychologists-guide-to-reading-a-neuroimaging-paper/
 
+All Resolution Inference: Increasing Spatial Specificity of fMRI with Valid Circular Inference
+https://www.pathlms.com/ohbm/courses/8246/sections/12541/video_presentations/115959
+
+
 http://blogs.discovermagazine.com/neuroskeptic/2011/09/11/neuroscience-fails-stats-101/
 
 
-http://neuroskeptic.blogspot.com/2009/09/fmri-gets-slap-in-face-with-dead-fish.html
-
-
-All Resolution Inference: Increasing Spatial Specificity of fMRI with Valid Circular Inference
-https://www.pathlms.com/ohbm/courses/8246/sections/12541/video_presentations/115959
 
 ### Cluster based inference (   ???   )
 
@@ -1015,7 +1023,6 @@ Nilearn is a Python module for fast and easy statistical learning on NeuroImagin
 
 ## ANALYSIS: Encoding models (   ???   )
 
-
 https://nikokriegeskorte.org/tag/encoding-models/
 
 #### Popeye
@@ -1030,8 +1037,7 @@ A pRF analysis toolbox called the Seriously Annoying Matlab SuRFer from [Sam Sch
 
 Non neuroimaging cases
 * [multiverse analysis]()
-* [specification curves]()
-https://www.youtube.com/watch?v=g75jstZidX0
+* [specification curves]() presented in a talk at SPSP [here](https://www.youtube.com/watch?v=g75jstZidX0
 
 ## ANALYSIS: Computational neuroscience
 
@@ -1071,10 +1077,9 @@ BID conference
 
 
 
-a [talk](https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/116072) by [Tom Nichols]() at OHBM 2018 for an [overview](https://figshare.com/articles/Overview_of_Meta-Analysis_Approaches/6723839)
-a [practical](https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/116073) by [Camille Maumet]() at OHBM 2018 on meta-analysis: [slides] (   ???   )
-
-a talk on ALE and brainmap
+* A [talk](https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/116072) by [Tom Nichols]() at OHBM 2018 for an [overview](https://figshare.com/articles/Overview_of_Meta-Analysis_Approaches/6723839)
+* A [practical](https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/116073) by [Camille Maumet]() at OHBM 2018 on meta-analysis: [slides] (   ???   )
+* A talk on ALE and brainmap
 https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/116066
 
 
@@ -1100,7 +1105,7 @@ See also Jeanette Mumford's [video](https://www.youtube.com/watch?v=bsM4KowO5Vc)
 
 
 
-* Journal specific requirements or checklists
+* Journal specific requirements or checklists like those of Nature (   ???   ) or Elife (   ???   )
 * [21 words solution] (   ???   )
 * [Constraints on generality] (   ???   )
 * Other checklists:
@@ -1142,7 +1147,8 @@ blog and paper guillaume Rousselet
 http://eelkespaak.nl/blog/customizing-common-m-eeg-plots-part-2-the-time-frequency-representation-tfr/
 
 * Color maps
-color blind friendly
+  - color blind friendly
+  - the JET colormap is EVIL
 
 * Dual coded statistical maps
 [Code](http://mialab.mrn.org/datavis/) to display beta values and t values on the same map. From the *Data visualization in the neurosciences: overcoming the curse of dimensionality* [paper](https://www.ncbi.nlm.nih.gov/pubmed/22632718).
@@ -1156,12 +1162,7 @@ Those recent tools cannot be applied to statistical maps but they can be useful 
 * [Statcheck](http://statcheck.io/) developed by automatically checks for errors in statistical reporting making sure that your p values match with your t/F values and degrees of freedom.
 * [GRIM test](http://www.prepubmed.org/grim_test/) checks for Granularity-Related Inconsistency of Means. Developed by [Nick Brown](https://twitter.com/sTeamTraen) and [James Heathers](https://twitter.com/jamesheathers) makes sure that the mean reported are plausible given a measurement scale (liek a Likert scale or a visual analog scale) and a sample size. There are [GRIMMER](http://www.prepubmed.org/grimmer/, GRIMMEST extension to standard deviations and F values.
 * [SPRITE](https://peerj.com/preprints/26968v1/) stands for Sample Parameter Reconstruction via Iterative TEchniques and allows to generate the possible data distribution given a scale, a mean and variability measure [web app](http://www.prepubmed.org/sprite/), [shiny app](https://steamtraen.shinyapps.io/rsprite/), [code](https://osf.io/pwjad/).
-
-
-https://shinyapps.org/apps/p-checker/
-* p-curves
-* test of insufficient variance
-* z-curves
+* There is also the [p-checker shinyapp](https://shinyapps.org/apps/p-checker/) that lets you inspect/diagnose a group of results by doing a p-curve analysis, a test of insufficient variance, z-curve analysis, …
 
 
 
@@ -1170,7 +1171,7 @@ https://shinyapps.org/apps/p-checker/
 
 
 
-* Peer review openness (PRO) initiative to ask for data: https://opennessinitiative.org/
+* [Peer review openness (PRO) initiative](https://opennessinitiative.org/) to ask for data
 
 
 

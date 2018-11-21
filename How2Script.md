@@ -50,7 +50,7 @@ The spm.mat is the file where SPM stores all the information about your analysis
 
 ## How to actually write SPM scripts?
 
-It is usually easier to start creating batches via the graphic interface. Many ressources are available on-line to help you getting started writing your own batch with SPM, see for example [here](http://en.wikibooks.org/w/index.php?title=SPM/Batch&stable=0). SPM also has a `batches` folder that contains examples that can be interesting. Once you have created a batch, save it using `File --> Save batch and script`. This will create a matlab .m file that you can start using to build your own scripts.
+It is usually easier to start creating batches via the graphic interface. Many ressources are available on-line to help you getting started writing your own batch with SPM, see for example [here](http://en.wikibooks.org/w/index.php?title=SPM/Batch&stable=0). SPM also has a `batches` folder that contains examples that can be interesting. Once you have created a batch, save it using `File --> Save batch and script`. This will create a matlab .m file that you can start using to build your own scripts (tip: this is actually done in the background by the `gencode.m` function).
 
 [Stephan Heunis](https://twitter.com/fmrwhy) has a great series of [posts](https://www.fmrwhy.com/2018/06/28/spm12-matlab-scripting-tutorial-1/) on how to script using matlab and SPM with the code available [here](https://github.com/jsheunis/matlab-spm-scripts-jsh/blob/master/spm_batchScriptingExample_jsh.m).
 
