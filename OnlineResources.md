@@ -301,7 +301,7 @@ There is one on the rMRI [website](http://rfmri.org/Course).
 
 
 ### Neurohackademy
-Neurohackademy is more than a neuroimaging course: it is broader in scope as it covers reproducibility and open science issues in neuroimaging. It is also very practical and definitely python oriented. To know more, see this [post](http://www.talyarkoni.org/blog/2018/08/16/neurohackademy-2018-a-wrap-up/) by [Tal Yarkoni](https://twitter.com/talyarkoni) about the 2018 edition of Neurohackademy.
+[Neurohackademy](https://neurohackademy.org/) is more than a neuroimaging course: it is broader in scope as it covers reproducibility and open science issues in neuroimaging. It is also very practical and definitely python oriented. To know more, see this [post](http://www.talyarkoni.org/blog/2018/08/16/neurohackademy-2018-a-wrap-up/) by [Tal Yarkoni](https://twitter.com/talyarkoni) about the 2018 edition of Neurohackademy.
 * [videos to the edition 2017/2018](https://www.youtube.com/playlist?list=PLA6PlfxWZPLTLJ2qTN9enG0tkizpmwWaq)
 * [videos to the edition 2016](https://www.youtube.com/playlist?list=PLEdFhTRBFLObkatJOX9wp3BCueH4wNSl7)
 * [2018 course material](https://github.com/neurohackademy)
@@ -372,7 +372,7 @@ Jeanette Mumford has a fantastic series of videos on neuroimaging analysis on [y
 
 
 ### Andrew Jahn
-[Here](https://www.youtube.com/user/Shala5ha5ka) for the videos but he also as a [blog](https://www.andysbrainblog.com/) (see the old version [here](http://andysbrainblog.blogspot.com)). He has some very good follow along 'tutorials' for FSL, Freesurfer and AFNI amongst other things.
+[Here](https://www.youtube.com/user/Shala5ha5ka) for the videos but he also as a [blog](https://www.andysbrainblog.com/) (see the old version [here](http://andysbrainblog.blogspot.com)). He has some very good follow along 'tutorials' for FSL, SPM, Freesurfer and AFNI amongst other things.
 
 
 ### Center for Brains, Minds and Machines
@@ -459,6 +459,7 @@ I learnt matlab with a book and by reading other's scripts and with a lot of cof
 ### SPM
 * The first place to look is the [SPM wiki book](https://en.wikibooks.org/wiki/SPM) that could become a even better resource if users contributed even more to it.
 * Then you can check the [add-ons for SPM](https://www.fil.ion.ucl.ac.uk/spm/ext/).
+* https://www.youtube.com/playlist?list=PLxItDNjOWyDVMOerTs-ZRwtQQSE76ULm5
 * The spm.mat is the file where SPM stores all the information about your analysis. This [page](http://people.duke.edu/~njs28/spmdatastructure.htm) explains its organization.
 * If you want to write scripts and use batches efficiently using SPM see what I wrote [here](./How2Script.md)
 * [The clever machine](https://theclevermachine.wordpress.com/category/fmri/) blog has some very useful matlab codes for fMRI analysis
@@ -482,6 +483,8 @@ There are also a [handbook](https://www.enthought.com/white-paper-matlab-to-pyth
 
 If you turn to neuroimaging in python I guess you will first want to go to check the [nipy website](http://nipy.org/) and then turn to [nibabel](http://nipy.org/nibabel/), [nipype](#Nipype), [nilearn](#nilearn), [pyMVPA](#pyMVPA), …
 
+
+https://cogs18.github.io/intro/
 
 
 ## Web apps (   ???   )
@@ -566,6 +569,11 @@ Even though GIT is most powerful when using the command line, there are also man
 Another good coding practice to have is a consistent coding style. For python you have the [PEP8 standard](https://www.python.org/dev/peps/pep-0008/) and some tools like [pylint](https://www.pylint.org/), [pycodestyle](https://pypi.org/project/pycodestyle/2.2.0/), or [pep8online](http://pep8online.com/) that help you make sure that your code complies with this standard.
 
 You can also have a look at the code style used by [google for many languages](https://github.com/google/styleguide) (h/t [Kelly Garner](@garner_theory)). You will notice that matlab is not in the list so you might want to check this [here](https://fr.mathworks.com/matlabcentral/fileexchange/46056-matlab-style-guidelines-2-0?s_tid=mwa_osa_a).
+
+
+mlint and checkcode
+https://fr.mathworks.com/help/matlab/ref/mlint.html
+https://fr.mathworks.com/help/matlab/ref/checkcode.html
 
 #### Avoid selective debugging: unit tests, positive and negative control
 Having a bug is annoying. Having your code run but give you an obviously wrong answer is more annoying. Having your code run and give you a plausible but wrong answer is scary (and potentially expensive when it [crashes a spaceship onto a planet](https://en.wikipedia.org/wiki/Mars_Climate_Orbiter#Cause_of_failure)). Having your code run and give you the answer you want but not the true answer is the worst and keeps me up at night.
@@ -691,9 +699,13 @@ Before you run your study there are a few things you can do to [optimize your de
 
 #### Design efficiency (   ???   )
 If you need a reminder about what [design efficiency](http://imaging.mrc-cbu.cam.ac.uk/imaging/DesignEfficiency) is.
+
+Jeanette Mumford has a good [video series](https://www.youtube.com/playlist?list=PLB2iAtgpI4YEnBdb_jDGmMcdGoIBwhCCY) about design efficiency and another [standalone one](https://neurohackademy.org/course/efficiency-and-design-optimization-for-fmri/) from Neurohackademy 2016.
+
 When you want to optimize it you have few options:
-* you can compute the efficiency by hand and tweaking your design [to see what options work best](http://imaging.mrc-cbu.cam.ac.uk/imaging/DesignEfficiency)
+* you can compute the efficiency by hand and tweaking your design [to see what options work best](http://imaging.mrc-cbu.cam.ac.uk/imaging/DesignEfficiency). There is a function available [Rik Henson's](https://github.com/MRC-CBU/riksneurotools) repo to help you do that.
 * but there are also more systematic ways to optimize your protocol: see [here](http://surfer.nmr.mgh.harvard.edu/optseq/), [here](http://psych.colorado.edu/~tor/Software/genetic_algorithms.html) or [there](http://www.cabiatl.com/CABI/resources/fmrisim/)
+* the  latest tool for design efficiency calculation is the website [neuropowertools](http://www.neuropowertools.org/). It actually offers options to run both your design efficiency optimization and your power analysis. They also have their respective python packages.
 
 #### Power
 > In order to investigate whether an effect exists, one should design an experiment that has a reasonable chance of detecting it. I take this insight as common sense. In statistical language, an experiment should have sufficient statistical power.
@@ -1019,7 +1031,7 @@ A pRF analysis toolbox called the Seriously Annoying Matlab SuRFer from [Sam Sch
 Non neuroimaging cases
 * [multiverse analysis]()
 * [specification curves]()
-
+https://www.youtube.com/watch?v=g75jstZidX0
 
 ## ANALYSIS: Computational neuroscience
 
