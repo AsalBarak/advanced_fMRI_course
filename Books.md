@@ -1,5 +1,16 @@
 ﻿# Books
 
+## MATLAB books
+
+http://www.cmadan.com/book_matlab.php
+
+## general stats book
+
+Russel Poldrack OA stats [book](http://thinkstats.org/index.html)
+
+
+## fMRI books
+
 As the course is based around SPM, it could be a good idea to have a look at the SPM book :
 
 ![](.statics/human_brain_function.jpg)

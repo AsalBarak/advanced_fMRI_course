@@ -225,18 +225,14 @@ And here are some neuroimaging oriented lab wikis:
 * [Open neuroscience](https://openeuroscience.com/) points to a lot of open things related to neuroscience.
 * There [MOOC on open-science](https://opensciencemooc.eu/) is still under construction but already has an insane [list of resources](https://opensciencemooc.eu/resources/).
 * A [list](https://docs.google.com/document/d/1Wt6sZUavq4oQf4t3tpQARcajf-6i4TtHlx_lw-WJD1U/edit#heading=h.rgwbys315r9s) of Scientific Coding Resource put together by [neuroconscience] (   ???   )
+* [Aya Ben-Yakov](@aya_ben_yakov) compiled a great list of [open-science resources](http://www.mrc-cbu.cam.ac.uk/openscience/resources/) for the CBU in Cambridge.
 
-Open Science Resources http://www.mrc-cbu.cam.ac.uk/openscience/resources/  Aya Ben-Yakov
-@aya_ben_yakov
 
 https://github.com/pbeukema/LabHacks
 
 
 https://anisha.pizza/#/projects
-
-
 https://brainlife.io/
-
 
 ML resources
 https://sgfin.github.io/learning-resources/
@@ -460,6 +456,7 @@ I learnt matlab with a book and by reading other's scripts and with a lot of cof
 * The first place to look is the [SPM wiki book](https://en.wikibooks.org/wiki/SPM) that could become a even better resource if users contributed even more to it.
 * Then you can check the [add-ons for SPM](https://www.fil.ion.ucl.ac.uk/spm/ext/).
 * https://www.youtube.com/playlist?list=PLxItDNjOWyDVMOerTs-ZRwtQQSE76ULm5
+* Justin O'Brien has a [good tutorial video series](https://www.youtube.com/playlist?list=PLxItDNjOWyDVMOerTs-ZRwtQQSE76ULm5) on how to analyze data with SPM from beginning to the end.
 * The spm.mat is the file where SPM stores all the information about your analysis. This [page](http://people.duke.edu/~njs28/spmdatastructure.htm) explains its organization.
 * If you want to write scripts and use batches efficiently using SPM see what I wrote [here](./How2Script.md)
 * [The clever machine](https://theclevermachine.wordpress.com/category/fmri/) blog has some very useful matlab codes for fMRI analysis
@@ -514,6 +511,8 @@ Some of those might help you learn or revise your neuroanatomy:
 
 ## BEFORE YOU START: Reproducibility (   ???   )
 
+* [Neuroimaging Workflows & Statistics for reproducibility](https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/115885) by Dorota Jarecka, Satrajit Ghosh, Celia Greenwood and Jean-Baptiste Poline at OHBM (3 hr 45 min)
+
 http://blogs.discovermagazine.com/neuroskeptic/2012/06/14/brains-are-different-on-macs/
 
 Same Data - Different Software - Different Results? Analytic Variability of Group fMRI Results.
@@ -550,8 +549,9 @@ The [open brain consent form](https://open-brain-consent.readthedocs.io/en/stabl
 
 
 
-LICENSES : which to choose
-don't apply to data
+LICENSES : to help you which license to choose start [here](https://choosealicense.com/)
+
+Lincenses don't apply to data
 
 
 ## BEFORE YOU START: Code and data management (   ???   )
@@ -943,7 +943,7 @@ https://brainder.org/2011/09/05/fdr-corrected-fdr-adjusted-p-values/#comment-153
 
 ### Permutation tests (   ???   )
 
-A talk by Carsten Allefeld on permutation test at OHBM 2018: https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/116074
+[A primer on permutation testing (not only) for MVPA](https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/116074) by [Carsten Allefeld](https://twitter.com/c_allefeld) (36 min)
 
 
 The [prevalence test](https://github.com/allefeld/prevalence-permutation)
@@ -966,7 +966,8 @@ http://blogs.discovermagazine.com/neuroskeptic/2014/06/21/fmri-mvpa-crack-neural
 
 * [Jo Etzel](https://twitter.com/JosetAEtzel) has a great blog if you want to know more about multivariate analysis: [MVPA meandering](http://mvpa.blogspot.co.uk)
 
-A talk by [Pradeep Reedy Raamana]() at OHBM 2018 on cross-validation: https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/116075
+[Cross-validation : what, which and how?](https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/116075) by [Pradeep Reedy Raamana](https://twitter.com/raamana_) at OHBM 2018 (30 min)
+
 
 What can we say about weight maps from linear decoding models?
 https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/116081
@@ -993,7 +994,7 @@ PRoNTo is the Pattern Recognition for Neuroimaging Toolbox developed at UCL (UK)
 * [manual](https://github.com/rsagroup/rsatoolbox/blob/develop/Documentation/toolbox%20documentation.pdf)
 
 #### PCM toolbox
-The pattern components modelling toolbox of the [Diedrichsen lab]()
+The pattern components modelling toolbox of the [Diedrichsen lab](https://twitter.com/diedrichsenlab)
 * [website](https://github.com/jdiedrichsen/pcm_toolbox)
 * [manual](https://github.com/jdiedrichsen/pcm_toolbox/blob/master/documentation/pcm_toolbox_manual.pdf)
 
@@ -1060,6 +1061,7 @@ As someone said on twitter there is a cottage industry of blog posts trying to u
 And a [tutorial](https://medium.com/@solopchuk/tutorial-on-active-inference-30edcf50f5dc)
 
 ### Dynamic causal modelling
+[A tutorial series on DCM](https://www.youtube.com/watch?v=q-yypnHgCII&list=PLwiAO9Cs0Tb8wUGAnYY5yIMckB9tc4T3_) by [Kevin Aquino](https://twitter.com/kevin_m_aquino) [6 hrs]
 
 
 
@@ -1069,6 +1071,9 @@ And a [tutorial](https://medium.com/@solopchuk/tutorial-on-active-inference-30ed
 * This [blog post](https://layerfmri.com/2018/01/04/layer-fmri-software-in-the-field/) has a list of most of the softwares that are related to laminar fMRI.
 * A [more recent tool](https://github.com/kwagstyl/surface_tools) not listed in there for creating equivolumetric surfaces.
 
+In terms of functional data there is high-res VASO (CBV) dataset [here](https://openneuro.org/datasets/ds001547).
+
+For anatomical data you can have a look [here](   ???   ).
 
 BID conference
 
@@ -1077,8 +1082,8 @@ BID conference
 
 
 
-* A [talk](https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/116072) by [Tom Nichols]() at OHBM 2018 for an [overview](https://figshare.com/articles/Overview_of_Meta-Analysis_Approaches/6723839)
-* A [practical](https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/116073) by [Camille Maumet]() at OHBM 2018 on meta-analysis: [slides] (   ???   )
+* A [talk](https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/116072) by [Tom Nichols](https://twitter.com/ten_photos) at OHBM 2018 for an [overview](https://figshare.com/articles/Overview_of_Meta-Analysis_Approaches/6723839)
+* A [practical](https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/116073) by [Camille Maumet](https://twitter.com/cmaumet) at OHBM 2018 on meta-analysis: [slides] (   ???   )
 * A talk on ALE and brainmap
 https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/116066
 
@@ -1123,7 +1128,7 @@ See also Jeanette Mumford's [video](https://www.youtube.com/watch?v=bsM4KowO5Vc)
 
 * a FAQ [article](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3896880/) on the GLM by Cyril Pernet with [matlab code](https://www.frontiersin.org/articles/file/downloadfile/58014_supplementary-materials_datasheets_1_zip/octet-stream/Data%20Sheet%201.ZIP/2/58014) to go through has some mention on reporting PSC.
 * See also this FSL [guide](http://mumford.bol.ucla.edu/perchange_guide.pdf) by Jeanette Mumford (   ???   ) for reporting results in PSC.
-* This [post](http://blogs.warwick.ac.uk/nichols/entry/spm_plot_units/) by Tom Nichols (   ???   ) can be helpful to understand what are the units that SPM paranter estimates are reported in.
+* This [post](http://blogs.warwick.ac.uk/nichols/entry/spm_plot_units/) by [Tom Nichols](https://twitter.com/ten_photos) can be helpful to understand what are the units that SPM paranter estimates are reported in.
 * The [MarsBAR](http://marsbar.sourceforge.net/) SPM toolbox can also help you deal with PSC.
 * From the [ArtRepair webiste](https://cibsr.stanford.edu/content/dam/sm/cibsr/documents/tools/methods/artrepair-software/FMRIPercentSignalChange.pdf)
 
@@ -1149,6 +1154,7 @@ http://eelkespaak.nl/blog/customizing-common-m-eeg-plots-part-2-the-time-frequen
 * Color maps
   - color blind friendly
   - the JET colormap is EVIL
+* https://davidmathlogic.com/colorblind/#%23D81B60-%231E88E5-%23FFC107-%23004D40
 
 * Dual coded statistical maps
 [Code](http://mialab.mrn.org/datavis/) to display beta values and t values on the same map. From the *Data visualization in the neurosciences: overcoming the curse of dimensionality* [paper](https://www.ncbi.nlm.nih.gov/pubmed/22632718).

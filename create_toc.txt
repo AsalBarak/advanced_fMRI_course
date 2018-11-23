@@ -7,6 +7,7 @@ var toc = require('markdown-toc')
 
 file='./OnlineResources.md';
 file = 'D:/github/advanced_fMRI_course/OnlineResources.md';
+file = 'D:/github/hackathon2019/Tutorial_Resources.md';
 content = fs.readFileSync(file, 'utf8');
 toc_content = toc(content);
 console.log(toc_content.content)
