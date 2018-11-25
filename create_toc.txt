@@ -11,3 +11,11 @@ file = 'D:/github/hackathon2019/Tutorial_Resources.md';
 content = fs.readFileSync(file, 'utf8');
 toc_content = toc(content);
 console.log(toc_content.content)
+
+
+
+var remark = require('remark');
+var fs = require('fs');
+file = 'D:/github/bids-specification/src/04-modality-specific-files/01-magnetic-resonance-imaging-data.md';
+content = fs.readFileSync(file, 'utf8');
+remark content
