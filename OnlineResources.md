@@ -473,27 +473,39 @@ I learnt matlab with a book and by reading other's scripts and with a lot of cof
 ## The python ecosystem (   ???   )
 Matlab must still be the most used "language" in neuroimaging (citation needed) but there is huge neuroscience-oriented python ecosystem out there taking advantage of the scientific python community. On top of the financial aspect (those matlab licenses can be quite expensive), there are many good reasons why you might wanna switch if only because [matlab breeds](http://neuroplausible.com/matlab) [bad coding habits](http://www.rath.org/matlab-is-a-terrible-programming-language.html).
 
+https://metarabbit.wordpress.com/2013/10/18/why-python-is-better-than-matlab-for-scientific-software/
+https://www.stat.washington.edu/~hoytak/blog/whypython.html
+
 Here too there are plenty of generic python courses on [datacamp](https://www.datacamp.com/tracks/python-programmer), [code academy](https://www.codecademy.com/learn/learn-python) or [kaggle](https://www.kaggle.com/learn/python). You can also check things that are more scientific python oriented like the [scipy lectures](http://www.scipy-lectures.org/) or Jake Vanderplas's jupyter notebooks [Whirlwind Tour Of Python](https://github.com/jakevdp/WhirlwindTourOfPython) and [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook).
 
+We might also want to check [An introduction to Python!](https://cogs18.github.io/intro/), the course made by [Thomas Donoghue](   ???   )
+
 There are also a [handbook](https://www.enthought.com/white-paper-matlab-to-python) and a [course](https://www.fz-juelich.de/ias/jsc/EN/Expertise/Services/Documentation/presentations/presentation-matlab2python_table.html?nn=362392) that might ease the transition from matlab to python.
+
+https://docs.scipy.org/doc/numpy-1.14.0/user/numpy-for-matlab-users.html
 
 If you turn to neuroimaging in python I guess you will first want to go to check the [nipy website](http://nipy.org/) and then turn to [nibabel](http://nipy.org/nibabel/), [nipype](#Nipype), [nilearn](#nilearn), [pyMVPA](#pyMVPA), …
 
 
-https://cogs18.github.io/intro/
+##
+http://compcogscisydney.org/psyr/
+https://rweekly.org/
 
 
 ## Web apps (   ???   )
 
+p values are hard to understand but can be seen as a surprise factor: s-values express that by saying that your results no more surprising than getting all heads in X fair coin tosses. See this [blog post and web app](https://www.lesslikely.com/statistics/s-values/) to know more.
+
 
 ### R based apps
 Even if they are not specific to neuroimaging many of the R based web based apps from [shiny apps](http://shinyapps.org/) and [R psychologist](http://rpsychologist.com/) can be very useful to help better understand:
-* [p-values](https://www.shinyapps.org/apps/vs-mpr/)
-* [confidence intervals](http://rpsychologist.com/d3/CI/)
-* [p curves](https://shinyapps.org/apps/p-checker/) and [why with a decent power and a large effect size, it is relatively unlikely to find a value between p<.01 and p<.05](http://rpsychologist.com/d3/pdist/)
-* [null hypothesis significance testing](http://rpsychologist.com/d3/NHST/)
-* [p hacking](https://www.shinyapps.org/apps/p-hacker/)
-* [positive predictive values](http://shinyapps.org/showapp.php?app=https://tellmi.psy.lmu.de/felix/PPV&by=Michael%20Zehetleitner%20and%20Felix%20Sch%C3%B6nbrodt&title=When%20does%20a%20significant%20p-value%20indicate%20a%20true%20effect?&shorttitle=When%20does%20a%20significant%20p-value%20indicate%20a%20true%20effect?)
+
+*   [p-values](https://www.shinyapps.org/apps/vs-mpr/)
+*   [confidence intervals](http://rpsychologist.com/d3/CI/)
+*   [p curves](https://shinyapps.org/apps/p-checker/) and [why with a decent power and a large effect size, it is relatively unlikely to find a value between p<.01 and p<.05](http://rpsychologist.com/d3/pdist/)
+*   [null hypothesis significance testing](http://rpsychologist.com/d3/NHST/)
+*   [p hacking](https://www.shinyapps.org/apps/p-hacker/)
+*   [positive predictive values](http://shinyapps.org/showapp.php?app=https://tellmi.psy.lmu.de/felix/PPV&by=Michael%20Zehetleitner%20and%20Felix%20Sch%C3%B6nbrodt&title=When%20does%20a%20significant%20p-value%20indicate%20a%20true%20effect?&shorttitle=When%20does%20a%20significant%20p-value%20indicate%20a%20true%20effect?)
 
 
 ### Vizualizaton
@@ -1006,7 +1018,6 @@ In case you want to normalize brains of children it might be better to use a ped
 
 
 
-
 * [quality control on MRI and fMRI](https://practicalfmri.blogspot.com/2014/08/qa-for-fmri-part-3-facility-qa-what-to.html)
 * [COBIDacq](https://practicalfmri.blogspot.com/2017/12/cobidacq.html)
 * https://en.wikibooks.org/wiki/Neuroimaging_Data_Processing/Data_Quality
@@ -1019,6 +1030,7 @@ In case you want to normalize brains of children it might be better to use a ped
 * https://github.com/memobc/memolab-fmri-qa
 * [Qoala-t](https://github.com/Qoala-T) for QA for freesurfer segmentations also with an online [shinyapp](https://qoala-t.shinyapps.io/qoala-t_app/)
 * [Visual QC](https://github.com/raamana/visualqc) developed by [Pradeep](https://twitter.com/raamana_).
+
 
 
 ## ONCE YOU HAVE DATA: preprocessing
