@@ -1,3 +1,5 @@
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
 I am uploading here some of the course material I used as a teaching assistant for the advanced fMRI course at the University of Birmingham (UK).
 
 I am only putting here material I created. If you want to have access to the slides of the lectures (that I did not make/compile), get in touch and I should be able to get hold of them.

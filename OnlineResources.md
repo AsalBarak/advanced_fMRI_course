@@ -8,17 +8,6 @@ Also I am by no means an expert or even have used or done all the things I list.
 
 I am also working on a companion [reading list] (  ???  ).
 
-
-
-
-
-#MRIvalentines
-http://www.fmri4newbies.com/humor/
-https://collectivelyunconscious.wordpress.com/2012/11/02/brain-region-found-that-does-absolutely-nothing/
-https://www.theguardian.com/science/head-quarters/2014/apr/01/fmri-brain-imaging-spoof-april-fools
-"- Designing an fMRI experiment is like building a miniature ship in a glass bottle. Every direction you want to move in you find some new unanticipated constraints.
-- That's on a good day. Most days it is more like building a miniature ship in a glass bottle in the dark while drunk and with one hand tied behind your back."
-
 ---
 
 **How to use this document**
@@ -29,20 +18,20 @@ Note also that some of the sectioning is bit arbitrary: I try to put cross-links
 ---
 
 **How to contribute**
-Feel free to add your own resource or any material you have found useful. Send me a pull request to this repository or raise an issue. Or if you don't know how to do that you can reach me on twitter https://twitter.com/RemiGau.
+Feel free to add your own resource or any material you have found useful. Send me a pull request to this repository or raise an issue. Or if you don't know how to do that you can reach me on [twitter](https://twitter.com/RemiGau.)
 
 You can check the **looking for** section right below to see what sections of this document need populating. I have also tried to flag with `???` in the table of content and in the main document the areas where I am pretty sure I have missed existing gems.
 
- ---
+---
 
 **Looking for**
-* Material on the BOLD signal: origin and biophysics
-* Material on preprocessing, denoising
-* Material on statistical inference in neuroimaging: peak, voxel, cluster based
-* Material on multiple comparison correction in neuroimaging
-* Material on DTI, ASL
-* Material on connectivity: PPI, DCM, granger causality
-* Material on licenses
+*   Material on the BOLD signal: origin and biophysics
+*   Material on preprocessing, denoising
+*   Material on statistical inference in neuroimaging: peak, voxel, cluster based
+*   Material on multiple comparison correction in neuroimaging
+*   Material on DTI, ASL
+*   Material on connectivity: PPI, DCM, granger causality
+*   Material on licenses
 
 ---
 
@@ -52,10 +41,10 @@ http://cbs.fas.harvard.edu/science/core-facilities/neuroimaging/information-inve
 https://emmarobinson01.com/2016/10/07/forget-weak-statistics-fmri-studies-suffer-from-oversimplified-assumptions-made-during-pre-processing/
 
 specific talks from
-mumfordbrainstats,
+mumfordbrainstats
 OHBM conference
 other video series
-meehl philosophy lectures
+Meehl philosophy lectures
 
 stats blogs (Gelman, Mayo )
 
@@ -65,6 +54,14 @@ replication award
 
 BOOKS
 http://www.neuroimagingprimers.org/
+
+HUMOR
+`#MRIvalentines`
+http://www.fmri4newbies.com/humor/
+https://collectivelyunconscious.wordpress.com/2012/11/02/brain-region-found-that-does-absolutely-nothing/
+https://www.theguardian.com/science/head-quarters/2014/apr/01/fmri-brain-imaging-spoof-april-fools
+"- Designing an fMRI experiment is like building a miniature ship in a glass bottle. Every direction you want to move in you find some new unanticipated constraints.
+- That's on a good day. Most days it is more like building a miniature ship in a glass bottle in the dark while drunk and with one hand tied behind your back."
 
 ---
 
@@ -228,14 +225,12 @@ And here are some neuroimaging oriented lab wikis:
 * [LabHacks](https://github.com/pbeukema/LabHacks) is a list of resources for data driven neuroscientists put together by Patrick Beukema
 * a list of [open computational neuroscience resources](‏ https://github.com/asoplata/open-computational-neuroscience-resources/blob/master/README.md) put together by [Austin Soplata](https://twitter.com/austinsoplata)
 * a list of [Computational resources](https://github.com/martinagvilas/lists/blob/master/computational_resources.md) put together by [Martina Vilas](https://twitter.com/martinagvilas)
+* a [list of resources for machine learning](https://sgfin.github.io/learning-resources/) put together by Sam Finlayson
+* [Matthew Brett](http://matthew.dynevor.org/) has some great tutorials on [neuroimaing](http://matthew.dynevor.org/research/publications.html#pubs-methodology) as well as some [math or IT skills that you should know about](http://matthew-brett.github.io/teaching/)
 
 
 https://anisha.pizza/#/projects
-
 https://brainlife.io/
-
-ML resources : https://sgfin.github.io/learning-resources/
-
 
 
 ## Online courses
@@ -266,10 +261,11 @@ There are also blog posts series on [practicalfmri](http://practicalfmri.blogspo
 * the type of [artefacts](https://practicalfmri.blogspot.com/2012/09/understanding-fmri-artifacts-contents.html) you might encounter and what to look for
 * a list of potential confounds to the [BOLD signal](https://thewinnower.com/papers/concomitant-physiologic-changes-as-potential-confounds-for-bold-based-fmri-a-checklist)
 * [quality control on MRI and fMRI](https://practicalfmri.blogspot.com/2014/08/qa-for-fmri-part-3-facility-qa-what-to.html)
+* the [Braindr web app](https://braindr.us/#/) designed by [Anisha Keshavan](https://anisha.pizza/#/projects) to expose yourself to some good, bad and ugly MRI structural images
 
 http://the-brain-box.blogspot.com/2015/05/what-does-fmri-measure.html
 http://blogs.discovermagazine.com/neuroskeptic/2014/02/03/non-bold-signal-fmri/#.UwNqBdvxBXT
-https://braindr.us/#/
+
 
 
 ### fMRI courses (   ???   )
@@ -289,6 +285,8 @@ If you are going to do some multivariate analysis, it is likely you will need to
 
 Worst case it will let you understand [why John von Neumann said](https://www.johndcook.com/blog/2011/06/21/how-to-fit-an-elephant/)
 > With four parameters I can fit an elephant, and with five I can make him wiggle his trunk.
+
+https://fmrif.nimh.nih.gov/public/other-courses/mvpa
 
 
 ### Resting state courses (   ???   )
@@ -339,6 +337,15 @@ Nipype is best viewed as a way to create and run software-agnostic preprocessing
 * [Porcupine](https://timvanmourik.github.io/Porcupine/) stands for "PORcupine Creates Ur PipelINE" which is probably *the worst recursive acronym with bad capitalisation and annoying use of slang*. This software allows researchers to build pipelines using a GUI and generates the code that is needed to run the pipeline created.
 * [Giraffe](https://giraffe.tools/porcupine) is web-based "Graphical Interface for Reproducible Analysis oF workFlow Experiments" that can take advantage of Porcupine to create pipelines.
 
+
+
+
+
+#### MIPAV
+
+
+
+
 #### Others (   ???   )
 
 http://www.fmri4newbies.com/
@@ -354,12 +361,11 @@ Daniel also has a blog [blog](http://daniellakens.blogspot.com/) is very useful 
 ### Open-science and reproducibility
 There is a [MOOC on open-science](https://opensciencemooc.eu/) is still under construction but on top of an insane [list of resources](https://opensciencemooc.eu/resources/) has the [module 5](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/tree/master/content_development) already up and running to teach you how to use github and zenodo to create a time stamped screenshot of your code to link to in your papers.
 
-
-https://berkeley-stat159-f17.github.io/stat159-f17/
+[Stat 159/259 - Reproducible and Collaborative Data Science](https://berkeley-stat159-f17.github.io/stat159-f17/) from Berkeley has a hands-on and integrated approach to GIT, jupyter notebooks, Python and more...
 
 
 ## Video series
-If you run out of things to binge on on Netflix, Youtube has some useful channels if you want to learn more about fMRI data analysis. I also list here other repository of MRI related videos.
+If you run out of things to binge on Netflix, Youtube has some useful channels if you want to learn more about fMRI data analysis. I also list here other repository of MRI related videos.
 
 
 ### Mumford brainstats
@@ -387,6 +393,9 @@ This new [conference](https://ccneuro.org/) has the videos from its first editio
 
 
 CBU openscience workshop 2016 http://www.mrc-cbu.cam.ac.uk/openscience2016/
+
+Justin O'Brien
+https://www.youtube.com/playlist?list=PLxItDNjOWyDVMOerTs-ZRwtQQSE76ULm5
 
 
 ## Blogs
@@ -421,6 +430,8 @@ But if you have more general questions you can also try :
 https://nifti.nimh.nih.gov/nifti-1/documentation/nifti1fields/nifti1fields_pages/qsform_brief_usage/document_view
 https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/Orientation%20Explained
 http://gru.stanford.edu/doku.php/mrTools/coordinateTransforms
+
+more on nibabel
 
 ### NIFTI
 
@@ -487,9 +498,10 @@ https://docs.scipy.org/doc/numpy-1.14.0/user/numpy-for-matlab-users.html
 If you turn to neuroimaging in python I guess you will first want to go to check the [nipy website](http://nipy.org/) and then turn to [nibabel](http://nipy.org/nibabel/), [nipype](#Nipype), [nilearn](#nilearn), [pyMVPA](#pyMVPA), …
 
 
-##
+## R
 http://compcogscisydney.org/psyr/
 https://rweekly.org/
+http://compcogscisydney.org/psyr/
 
 
 ## Web apps (   ???   )
@@ -510,6 +522,11 @@ Even if they are not specific to neuroimaging many of the R based web based apps
 
 ### Vizualizaton
 * the [bioimagesuite](https://bioimagesuiteweb.github.io/webapp/index.html) seems like a convenient way to visualize and do some processing of you images on the fly via a web-browser. (h/t [Renzo](https://twitter.com/layerfmri))
+
+
+
+papaya and mango
+
 
 
 ### Anatomy atlases (   ???   )
@@ -769,10 +786,15 @@ LICENSES : to help you which license to choose start [here](https://choosealicen
 
 Lincenses don't apply to data
 
+https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
+
 
 ## BEFORE YOU START: Code and data management (   ???   )
 In general I suggest you have a look at some of the courses and material offered by the Carpentries for [data](https://datacarpentry.org/) and [code](https://software-carpentry.org/).
 
+
+http://nikola.me/folder_structure.html
+https://drivendata.github.io/cookiecutter-data-science/
 
 ### Code management
 
@@ -781,17 +803,29 @@ For managing your code, if you don't already, I suggest you make version control
 
 Even though GIT is most powerful when using the command line, there are also many [graphic interfaces](https://git-scm.com/downloads/guis/) that might just be enough for what you need. Plus the graphic interface can help you get started to then you move on to use the command line only. There is no shame in using a GUI: just don't tell the GIT purists this is what you do otherwise you will never hear the end of it.
 
+https://medium.freecodecamp.org/how-to-use-badges-to-stop-feeling-like-a-noob-d4e6600d37d2
+
 #### Coding style
 Another good coding practice to have is a consistent coding style. For python you have the [PEP8 standard](https://www.python.org/dev/peps/pep-0008/) and some tools like [pylint](https://www.pylint.org/), [pycodestyle](https://pypi.org/project/pycodestyle/2.2.0/), or [pep8online](http://pep8online.com/) that help you make sure that your code complies with this standard.
 
-You can also have a look at the code style used by [google for many languages](https://github.com/google/styleguide) (h/t [Kelly Garner](@garner_theory)). You will notice that matlab is not in the list so you might want to check this [here](https://fr.mathworks.com/matlabcentral/fileexchange/46056-matlab-style-guidelines-2-0?s_tid=mwa_osa_a).
+https://github.com/ambv/black
 
+You can also have a look at the code style used by [google for many languages](https://github.com/google/styleguide) (h/t [Kelly Garner](@garner_theory)). You will notice that matlab is not in the list so you might want to check this [here](https://fr.mathworks.com/matlabcentral/fileexchange/46056-matlab-style-guidelines-2-0?s_tid=mwa_osa_a).
+http://sci-hub.tw/https://www.cambridge.org/core/books/elements-of-matlab-style/8825411CE69013434DB0939780CFD907
 
 mlint and checkcode
 https://fr.mathworks.com/help/matlab/ref/mlint.html
 https://fr.mathworks.com/help/matlab/ref/checkcode.html
+https://blogs.mathworks.com/community/2008/09/08/let-m-lint-help-simplify-your-code/
+
+https://arstechnica.com/information-technology/2012/08/ive-inherited-200k-lines-of-spaghetti-codewhat-now/
+
+https://refactoring.com/
 
 #### Avoid selective debugging: unit tests, positive and negative control
+
+https://www.software.ac.uk/
+
 Having a bug is annoying. Having your code run but give you an obviously wrong answer is more annoying. Having your code run and give you a plausible but wrong answer is scary (and potentially expensive when it [crashes a spaceship onto a planet](https://en.wikipedia.org/wiki/Mars_Climate_Orbiter#Cause_of_failure)). Having your code run and give you the answer you want but not the true answer is the worst and keeps me up at night.
 
 Selective debugging happens when we don't check the code that gives us the answer we want but we do check it when it gives us an answer that goes against our expectation. In a way it is a quite insidious form of p-hacking.
@@ -802,6 +836,10 @@ Some things that can be done about it:
 - organize code reviews in your lab: basically make sure that the code has been checked by another person. Pairing a beginner with a more senior member of the lab can also be a way to improve learning and skill transfer in the lab.
 - [test your code](http://www.reproducibleimaging.org/module-dataprocessing/06-testing/). These tests can be implemented automatically to your project by continuous integration services like [Travis](https://travis-ci.org/).
 - test your pipeline with positive negative control. A negative control is testing your analysis by running on random noise or on data that should have no signal in it. The latter was the approach used by [Anders Eklund](https://twitter.com/wandedob) and [Tom Nichols](https://twitter.com/ten_photos) in their [cluster failure paper series](http://blogs.discovermagazine.com/neuroskeptic/2018/07/22/cluster-failure-revisited/). A positive control is making sure that your analysis can detect VERY obvious things it should detect (e.g motor cortex activation following button presses, classify responses to auditory versus visual stimuli in V1, …). [Jo Etzel](https://twitter.com/JosetAEtzel) has post about [this](https://mvpa.blogspot.com/2015/11/positive-control-analyses-and-checking.html).
+
+
+
+https://jupyter4edu.github.io/jupyter-edu-book/
 
 
 ### Data: BIDS, Datalad and YODA
@@ -816,6 +854,8 @@ If you would like to use BIDS but you have no idea what a JSON file or the lengt
 
 #### YODA
 Having a standard way to organize not only your data but also your code, the results, the documentation... from the beginning of a project can go a long way to save you a lot of time down the line (when communicating within or outside your lab, or when you have to wrap things up when moving to a new project/job). The [YODA template](https://github.com/myyoda/template) is folder structure recommended by [ReproNim](http://www.reproducibleimaging.org/index.html) that you can use.
+
+https://eglerean.wordpress.com/2017/05/24/project-management-data-management/
 
 Other good habits:
 * a simple, transparent and systematic filenaming is a good [start](https://www.google.fr/search?q=good+file+naming+conventions&rlz=1C1CHBD_en-GBGB758GB758&oq=good+filenaming+&aqs=chrome.1.69i57j0l3j69i64.6421j0j7&sourceid=chrome&ie=UTF-8)
@@ -855,17 +895,19 @@ Some of the main databases are:
 * [XNAT](https://www.nitrc.org/ir/)
 * [Pain repository](https://www.painrepository.org/])
 
-Open science resources for neuroimaging research
-https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/116089
-
 But there are [many](https://brainhack101.github.io/neurolinks/) [possibilities](https://en.wikipedia.org/wiki/List_of_neuroscience_databases) [of](https://www.nitrc.org/search/?type_of_search=group&rows=20&s=relevancy&cat=325%3AData) [databases](https://www.nitrc.org/search/?type_of_search=group&offset=0&removeterm=&cat=313%3ADatabase&compare=&q=&rows=20&s=relevancy&file=%2Ffrs%2Fdownloadlink.php%2F9275&file=%2Ffrs%2Fdownloadlink.php%2F9336&file=%2Ffrs%2Fdownloadlink.php%2F3981&file=%2Ffrs%2Fdownload.php%2F9300%2Fdti_atlas.nrrd&file=%2Ffrs%2Fdownload.php%2F6716%2F3DMetricTools1.4.3-Windows.tar&file=%2Ffrs%2Fdownloadlink.php%2F5884&file=%2Ffrs%2Fdownload.php%2F860%2FLesionSegmentationTutorialData.tgz&file=%2Ffrs%2Fdownloadlink.php%2F10354&file=%2Ffrs%2Fdownload.php%2F7345%2FCONFREP_new_bvecs.zip&file=%2Ffrs%2Fdownload.php%2F5348%2FDemoData.zip&file=%2Ffrs%2Fdownload.php%2F10036%2F7T3T_NITRC.tar.gz&file=%2Ffrs%2Fdownloadlink.php%2F6725&file=%2Ffrs%2Fdownload.php%2F9277%2FLC_prob_atlas_mni05.zip&file=%2Ffrs%2Fdownloadlink.php%2F4074&file=%2Ffrs%2Fdownload.php%2F4969%2FaBEAT.zip&xrowsx=20&s=relevancy) where you can find your raw and/or pre-processed data. Maybe your university or your institute already ahs a repository of published data (e.g the [Donders institute](https://data.donders.ru.nl/?0).
+
+Chris Madan also has a nice [Curated list of open-access databases with human structural MRI data](https://github.com/cMadan/openMorph)
+
+[A list of brain imaging databases with multiple scans per subject](https://github.com/Conxz/multiBrain) put together by Xiangzhen Kong
 
 The recent [google extension for databases](https://toolbox.google.com/datasetsearch) can also be useful to locate datasets that might be of interest.
 
 There are some tools that help you search through them like the metasearch tool on the [Open Neuroimaging Laboratory](http://openneu.ro) but this is also where [Datalad](#datalad) can become useful to [browse or crawl those databases](https://www.datalad.org/for/data-discovery).
 
 
-
+Open science resources for neuroimaging research
+https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/116089
 https://github.com/Conxz/multiBrain
 https://github.com/cMadan/openMorph
 
@@ -886,10 +928,10 @@ The use of alternate and even competitive terminologies can often impede scienti
 
 
 
- * [Declare design]() seems to be something to look into. See what [Dorothy Bishop](https://twitter.com/deevybee) had to say about it.
- * [flexible measures](http://www.flexiblemeasures.com/) by [Malte Elson](https://twitter.com/maltoesermalte)
+ * If you are doing intervention based studies [Declare design](https://declaredesign.org/) seems to be something to look into. See what [Dorothy Bishop](https://twitter.com/deevybee) had to [say about it](http://discuss.declaredesign.org/t/gentle-introduction-to-declaredesign-by-dorothy-bishop/51/1).
+ * [flexible measures](http://www.flexiblemeasures.com/) by [Malte Elson](https://twitter.com/maltoesermalte). A [post](http://blogs.discovermagazine.com/neuroskeptic/2016/04/05/flexible-measures-science/) by [Neuroskeptic](https://twitter.com/Neuro_Skeptic) about it.
 
-http://blogs.discovermagazine.com/neuroskeptic/2016/04/05/flexible-measures-science/
+
 
 
 
@@ -899,7 +941,7 @@ Good piloting is very important but piloting is not meant to be about finding a 
 
 [Sam Schwarzkopf](https://twitter.com/sampendu) has a few interesting posts on the topic [here](https://neuroneurotic.net/2016/08/29/on-the-worthlessness-of-inappropriate-piloting/) and [there](https://neuroneurotic.net/2016/08/30/on-the-magic-of-independent-piloting/)
 
-Piloting is usually a phase where it would be good to check with your local MRI physicist and statistician. And you also might already have to make choices about [pre-processing](ONCE-YOU-HAVE-DATA:-preprocessing) and data analysis.
+Piloting is usually a phase where it would be good to check with your local MRI physicist and statistician. And you also might already have to make choices about [pre-processing](#ONCE-YOU-HAVE-DATA:-preprocessing) and data analysis.
 
 
 ### Pre-registration
@@ -957,6 +999,10 @@ If you intend to run a MVPA - classification analysis on your data, there are a 
 If you don't want to run a whole brain analysis, then you will most likely need to define your regions of interest (ROI). This must be done using data that is independent from the data you will use in the end otherwise you will have a circularity problem (also known as double dipping or voodoo correlation).
 * around a coordinate identified in a previous study or in a [meta-analysis](#meta-analysis-(   ???   )), or by using Neurosynth.
 * using a localizer
+https://github.com/search?l=&p=1&q=Localizer+fmri&ref=advsearch&type=Repositories&utf8=%E2%9C%93
+https://github.com/search?p=1&q=Retinotopy&type=Repositories&utf8=%E2%9C%93
+
+
 * or relying on a functional or anatomical atlas.
 
 Some blog posts related to voodoo correlations:
@@ -989,7 +1035,7 @@ There are many atlases you could use to create ROIS. Some ship automatically wit
 * [NITRC website](https://www.nitrc.org/search/?type_of_search=group&offset=0&removeterm=&cat=578%3AAtlas+Data&compare=&q=&rows=20&s=relevancy&file=%2Ffrs%2Fdownloadlink.php%2F9275&file=%2Ffrs%2Fdownloadlink.php%2F9336&file=%2Ffrs%2Fdownloadlink.php%2F3981&file=%2Ffrs%2Fdownload.php%2F9300%2Fdti_atlas.nrrd&file=%2Ffrs%2Fdownload.php%2F6716%2F3DMetricTools1.4.3-Windows.tar&file=%2Ffrs%2Fdownloadlink.php%2F5884&file=%2Ffrs%2Fdownload.php%2F860%2FLesionSegmentationTutorialData.tgz&file=%2Ffrs%2Fdownloadlink.php%2F10354&file=%2Ffrs%2Fdownload.php%2F7345%2FCONFREP_new_bvecs.zip&file=%2Ffrs%2Fdownload.php%2F5348%2FDemoData.zip&file=%2Ffrs%2Fdownload.php%2F10036%2F7T3T_NITRC.tar.gz&file=%2Ffrs%2Fdownloadlink.php%2F6725&file=%2Ffrs%2Fdownload.php%2F9277%2FLC_prob_atlas_mni05.zip&file=%2Ffrs%2Fdownloadlink.php%2F4074&file=%2Ffrs%2Fdownload.php%2F4969%2FaBEAT.zip&xrowsx=20&s=relevancy)
 
 
-
+https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0007200#s4
 
 http://nilearn.github.io/modules/reference.html#module-nilearn.datasets
 
@@ -1052,6 +1098,10 @@ There is also an [OPPNI](https://github.com/BIDS-Apps/oppni) for Optimization of
 ### Artefact/Noise removal (   ???   )
 
 [GLM denoise](http://kendrickkay.net/GLMdenoise/)
+
+ART repair
+
+ART
 
 
 #### PCA  (   ???   )
@@ -1180,6 +1230,8 @@ The [prevalence test](https://github.com/allefeld/prevalence-permutation)
 
 http://blogs.discovermagazine.com/neuroskeptic/2014/06/21/fmri-mvpa-crack-neural-code/
 
+https://distill.pub/2016/misread-tsne/
+
 * [Jo Etzel](https://twitter.com/JosetAEtzel) has a great blog if you want to know more about multivariate analysis: [MVPA meandering](http://mvpa.blogspot.co.uk)
 
 [Cross-validation : what, which and how?](https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/116075) by [Pradeep Reedy Raamana](https://twitter.com/raamana_) at OHBM 2018 (30 min)
@@ -1259,6 +1311,7 @@ A pRF analysis toolbox called the Seriously Annoying Matlab SuRFer from [Sam Sch
 Non neuroimaging cases
 * [multiverse analysis]()
 * [specification curves]() presented in a talk at SPSP [here](https://www.youtube.com/watch?v=g75jstZidX0
+* vibration of effects
 
 ## ANALYSIS: Computational neuroscience
 
@@ -1309,6 +1362,8 @@ https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/116
 
 
 [NiMARE](https://github.com/neurostuff/NiMARE) is a Python library for coordinate- and image-based meta-analysis. [Chris Gorgolewski](https://twitter.com/ChrisFiloG) wrote a [tutorial](https://www.kaggle.com/chrisfilo/coordinate-and-image-metaanalysis-with-nimare) on how to use it.
+
+https://github.com/NeuroVault/metanalysis_examples
 
 For coordinate based meta-analysis:
 * [brainmap](http://www.brainmap.org/) with [Sleuth](http://www.brainmap.org/software.html#Sleuth) and [GingerALE](http://www.brainmap.org/software.html#GingerALE)
@@ -1372,6 +1427,7 @@ blog and paper guillaume Rousselet
 http://eelkespaak.nl/blog/customizing-common-m-eeg-plots-part-2-the-time-frequency-representation-tfr/
 
 * Color maps
+* http://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3
   - color blind friendly
   - the JET colormap is EVIL
 * https://davidmathlogic.com/colorblind/#%23D81B60-%231E88E5-%23FFC107-%23004D40

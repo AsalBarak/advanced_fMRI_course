@@ -19,6 +19,8 @@
 
 
 
+https://theboldpostdoc.weebly.com/blog/good-practices-for-statistical-analysis-in-fmri
+
 link to ressource sections
 
 papers on Reproducibility
@@ -93,7 +95,7 @@ https://www.fil.ion.ucl.ac.uk/spm/doc/spmbib.html
 
 Big picture papers
 list of historical papers
-can a neuroscientist understand a microprocessor?
+can a neuroscientist understand a microprocessor? https://www.youtube.com/watch?v=EpztO20WSSI rationally speaking episode
 Cacioppo's
 
 
@@ -294,6 +296,8 @@ Devlin JT, Poldrack RA (2007) In praise of tedious anatomy. NeuroImage 37:1033-1
 ## Multivariate analysis
 PCM paper
 
+
+## Robustness checks
 
 ## High-resolution MRI
 review by polimeni

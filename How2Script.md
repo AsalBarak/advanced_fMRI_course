@@ -8,6 +8,8 @@ Scripting your preprocessing and your analyis is a good way to [save time](https
 
 ![](.statics/geek_VS_non-geek.jpg)
 
+How much time you can save depends on how often you do the task and how much you can shave off by scripting it: XKCD has [a nice recap](https://xkcd.com/1205/) let you know if scripting will be worth it.
+
 But remember that it can also be a pretty efficient way to get some systematic errors that are [hard to track down](http://xkcd.com/1319/).
 
 ![](.statics/automation.png)
