@@ -527,6 +527,8 @@ Even if they are not specific to neuroimaging many of the R based web based apps
 
 papaya and mango
 
+http://gallantlab.org/pycortex/retinotopy_demo/
+
 
 
 ### Anatomy atlases (   ???   )
@@ -534,6 +536,8 @@ Some of those might help you learn or revise your neuroanatomy:
 * http://www.med.harvard.edu/AANLIB/cases/caseNA/pb9.htm
 * http://ghiasi.org/2009/05/10-great-sites-for-reviewing-brain-anatomy/
 * http://atlas.brain-map.org/
+
+http://gallantlab.org/pycortex/retinotopy_demo/
 
 
 ### EEG and MEG Softwares
@@ -758,11 +762,15 @@ In practice this means that by using this container:
 * other researchers can reproduce your analysis **now** on their computer (e.g you can run a linux container with freesurfer on your windows computer),
 * you can reproduce your own analysis **in 5 years** from now without facing the problem of knowing which version of the software you used.
 
+If you want a brief conceptual introduction to cotainers and to the difference between containers and virtual machine, I recommend you start with these 2 posts:
+https://towardsdatascience.com/learn-enough-docker-to-be-useful-b7ba70caeb4b
+https://medium.freecodecamp.org/a-beginner-friendly-introduction-to-containers-vms-and-docker-79a9e3e119b
+
 [Neurodocker](https://github.com/kaczmarj/neurodocker) allows you to easily create a docker container suited to your needs in terms of neuroimaging analysis. There is nice [tutorial](https://miykael.github.io/nipype_tutorial/notebooks/introduction_neurodocker.html) here on how to use it.
 
 [Code-ocean](https://codeocean.com/) is web based service that relies on docker containers to let you run your analysis online. There is [post](https://www.fmrwhy.com/2018/10/31/reproducible-fmri-codeocean/) by [Stephan Heunis](https://twitter.com/fmrwhy) describing how he did that with an SPM pipeline.
 
-Another thing you can implement is using notebooks like [jupyter](http://jupyter.org/), [jupyter lab](https://jupyterlab.readthedocs.io/en/stable/) or [binder](https://mybinder.org/) (   ???   ). Here is fascinating [talk](https://www.youtube.com/watch?v=zC-3sdPtb0w&list=PLO3l0PnUGHYEqA7rFQT2jM6jxsaC2XiHh&t=384s&index=19) by [Fernando Perez](https://twitter.com/fperez_org), one the person behind the jupyter project.
+Another thing you can implement iss using notebooks like [jupyter](http://jupyter.org/), [jupyter lab](https://jupyterlab.readthedocs.io/en/stable/) or [binder](https://mybinder.org/) (   ???   ). Here is fascinating [talk](https://www.youtube.com/watch?v=zC-3sdPtb0w&list=PLO3l0PnUGHYEqA7rFQT2jM6jxsaC2XiHh&t=384s&index=19) by [Fernando Perez](https://twitter.com/fperez_org), one the person behind the jupyter project.
 
 
 Neuroimaging Workflows & Statistics for reproducibility
@@ -1046,6 +1054,9 @@ Some other retinotopics maps are apparently not listed in the above so here they
 * An anatomical template of human striate retinotopy (https://cfn.upenn.edu/aguirre/wiki/public:data_currbio_2012_benson)
 * The HCP 7T Retinotopy Dataset: data1(https://balsa.wustl.edu/study/show/9Zkk); [data2](https://osf.io/bw9ec/); [paper](https://www.biorxiv.org/content/early/2018/08/30/308247)
 * Probabilistic Maps of Visual Topography in Human Cortex: [data](https://scholar.princeton.edu/napl/resources); [paper](https://www.ncbi.nlm.nih.gov/pubmed/25452571)  
+
+http://gallantlab.org/pycortex/retinotopy_demo/
+
 
 The problem then becomes **which atlas to choose**. To help you with this the [Online Brain Atlas Reconciliation](https://www.nitrc.org/projects/obart/) Tool can show the overlap that exist between some of those atlases. The links I had to the website ([here](http://qnl.bu.edu/obart) and [there](http://www.braincircuits.org/human-brain)) are broken at the moment so at least here is a link to the [paper](https://www.ncbi.nlm.nih.gov/pubmed/19787067)
 

@@ -37,16 +37,11 @@ papers for beginners
 
 LAuren atlas paper on pain
 Cyril on GLM
-Cacioppo
-What you can and cannot do with fMRI by lokothetis
 
 robustness checks
 
 
-Chamberlin multiple hypothesis
-Forscher chaos in the brickyard
-Platt's strong inference
-Hedge on hard/soft science
+
 and the come back on if psych is soft it is for a good reason
 
 
@@ -96,7 +91,6 @@ https://www.fil.ion.ucl.ac.uk/spm/doc/spmbib.html
 Big picture papers
 list of historical papers
 can a neuroscientist understand a microprocessor? https://www.youtube.com/watch?v=EpztO20WSSI rationally speaking episode
-Cacioppo's
 
 
 
@@ -108,9 +102,6 @@ son: http://sci-hub.tw/http://www.sciencedirect.com/science/article/pii/S1053811
 
 
 Statistics and inferences
-strong inference
-meehl
-cohen
 
 
 ## Reproducibility
